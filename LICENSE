@@ -1,0 +1,68 @@
+Moxus Desktop Release Artifacts
+Proprietary Software License
+
+Copyright (c) Moxus. All rights reserved.
+
+---------------------------------------------------------------------------
+English
+---------------------------------------------------------------------------
+
+These GitHub Release assets (including but not limited to installers,
+updater packages, signatures, and latest.json) are proprietary software
+provided solely for installing and updating Moxus Desktop.
+
+Subject to this license, you may download and use the release artifacts
+for their intended purpose: installing, running, and updating Moxus Desktop
+on devices you own or control.
+
+You may not, except to the extent expressly permitted by applicable law:
+
+  1. Redistribute the artifacts for commercial purposes without prior
+     written permission;
+  2. Remove, alter, or obscure proprietary notices, trademarks, or
+     signature metadata;
+  3. Misrepresent the origin of the software or present modified builds as
+     official Moxus releases;
+  4. Use the artifacts to develop or distribute a competing product that
+     copies Moxus branding or release infrastructure in a misleading way.
+
+THE ARTIFACTS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF,
+OR IN CONNECTION WITH THE ARTIFACTS OR THE USE OR OTHER DEALINGS IN THE
+ARTIFACTS.
+
+Trademarks: "Moxus" and related marks are trademarks of their respective
+owners. No trademark license is granted by this file except as needed to
+identify the genuine Moxus Desktop software.
+
+For licensing inquiries, contact the Moxus project maintainers.
+
+---------------------------------------------------------------------------
+中文
+---------------------------------------------------------------------------
+
+本 GitHub Release 中的发布产物（包括但不限于安装包、更新包、签名文件以及
+latest.json）为专有软件，仅供安装与更新 Moxus Desktop 使用。
+
+在遵守本许可的前提下，您可下载并使用上述产物，用于在您拥有或控制的设备上
+安装、运行和更新 Moxus Desktop。
+
+除非适用法律明确允许，否则您不得：
+
+  1. 未经事先书面许可，将上述产物用于商业再分发；
+  2. 移除、篡改或遮盖专有声明、商标或签名元数据；
+  3. 虚假陈述软件来源，或将非官方修改版本宣称为官方 Moxus 发布；
+  4. 以误导方式使用上述产物，开发或分发盗用 Moxus 品牌或发布体系的
+     竞争性产品。
+
+上述产物按「现状」提供，不附带任何明示或默示担保，包括但不限于适销性、
+特定用途适用性以及非侵权担保。在任何情况下，版权所有者均不对因使用或
+无法使用上述产物而产生的任何索赔、损害或其他责任承担责任。
+
+商标：「Moxus」及相关标识归其各自权利人所有。本文件不授予商标许可，
+但为识别正版 Moxus Desktop 软件所必需的合理使用除外。
+
+许可相关事宜请联系 Moxus 项目维护者。
