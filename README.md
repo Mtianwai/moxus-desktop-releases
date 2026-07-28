@@ -16,11 +16,15 @@ Use the latest GitHub Release:
 
 **[Download Moxus Desktop](https://github.com/Mtianwai/moxus-desktop-releases/releases/latest)**
 
-| Asset | Purpose |
-|-------|---------|
-| `Moxus_*_aarch64.dmg` | Fresh install on Apple silicon (macOS arm64) |
-| `Moxus_*.app.tar.gz` + `.sig` | Signed package used by the in-app updater |
-| `latest.json` | Updater manifest (`releases/latest/download/latest.json`) |
+For a normal install, download **only** the `.dmg`.
+
+| Asset | Who needs it |
+|-------|----------------|
+| `Moxus_*_aarch64.dmg` | **You** — fresh install on Apple silicon |
+| `latest.json` | App updater (automatic; no manual download) |
+| `Moxus_*.app.tar.gz` | App updater (automatic; no manual download) |
+
+Ignore GitHub’s automatic **Source code** zip/tar.gz links — this repo is installers only, not the application source.
 
 Current first-party target: **macOS arm64**. Additional platforms may be added in later releases.
 

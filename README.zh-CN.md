@@ -16,11 +16,15 @@
 
 **[下载 Moxus Desktop](https://github.com/Mtianwai/moxus-desktop-releases/releases/latest)**
 
-| 资源 | 用途 |
-|------|------|
-| `Moxus_*_aarch64.dmg` | Apple 芯片 Mac（macOS arm64）全新安装 |
-| `Moxus_*.app.tar.gz` + `.sig` | 应用内更新使用的签名包 |
-| `latest.json` | 更新清单（`releases/latest/download/latest.json`） |
+日常安装请**只下载** `.dmg`。
+
+| 资源 | 谁需要 |
+|------|--------|
+| `Moxus_*_aarch64.dmg` | **用户** — Apple 芯片 Mac 全新安装 |
+| `latest.json` | 应用内更新（自动使用，无需手动下载） |
+| `Moxus_*.app.tar.gz` | 应用内更新（自动使用，无需手动下载） |
+
+请忽略 GitHub 自动附带的 **Source code** zip/tar.gz——本仓只发安装包，不是应用源码。
 
 当前官方首发平台：**macOS arm64**。后续版本可能增加其他平台。
 
