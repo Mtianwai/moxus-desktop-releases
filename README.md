@@ -16,17 +16,16 @@ Use the latest GitHub Release:
 
 **[Download Moxus Desktop](https://github.com/Mtianwai/moxus-desktop-releases/releases/latest)**
 
-For a normal install, download **only** the `.dmg`.
+Pick the installer for your OS — ignore updater packages and GitHub’s automatic **Source code** archives.
 
 | Asset | Who needs it |
 |-------|----------------|
-| `Moxus_*_aarch64.dmg` | **You** — fresh install on Apple silicon |
+| `Moxus_*_aarch64.dmg` | **macOS** (Apple silicon) — fresh install |
+| `Moxus_*_x64-setup.exe` | **Windows** (x64) — fresh install (NSIS) |
 | `latest.json` | App updater (automatic; no manual download) |
-| `Moxus_*.app.tar.gz` | App updater (automatic; no manual download) |
+| `Moxus_*.app.tar.gz` / `*.nsis.zip` | App updater (automatic; no manual download) |
 
-Ignore GitHub’s automatic **Source code** zip/tar.gz links — this repo is installers only, not the application source.
-
-Current first-party target: **macOS arm64**. Additional platforms may be added in later releases.
+Supported first-party targets: **macOS arm64** and **Windows x64**.
 
 ### Install (macOS)
 
@@ -34,7 +33,15 @@ Current first-party target: **macOS arm64**. Additional platforms may be added i
 2. Open the disk image and drag **Moxus** into Applications.
 3. Launch Moxus from Applications (or Spotlight).
 
-If macOS Gatekeeper prompts on first launch, open **System Settings → Privacy & Security** and allow the app, or right-click the app and choose **Open**.
+If macOS Gatekeeper prompts on first launch, open **System Settings → Privacy & Security** and allow the app, or right-click the app and choose **Open**. (Apple notarization is not enabled yet.)
+
+### Install (Windows)
+
+1. Download the `*-setup.exe` from the latest release.
+2. Run the installer and follow the prompts.
+3. Launch **Moxus** from the Start menu.
+
+Builds are not Authenticode-signed yet; Windows SmartScreen may warn on first launch. Choose **More info → Run anyway** if you trust this release channel.
 
 ### Update
 
@@ -45,8 +52,8 @@ Installed builds can check for updates from **Settings → About**. Updates are 
 | Is | Is not |
 |----|--------|
 | Public download + updater CDN for Moxus Desktop | Source code mirror |
-| Signed installers and `latest.json` | Issue tracker for product bugs (prefer your support channel) |
-| Versioned GitHub Releases | Nightly / unsigned CI dumps |
+| Release installers and `latest.json` | Issue tracker for product bugs (prefer your support channel) |
+| Versioned GitHub Releases | Nightly CI dumps |
 
 ## License
 
